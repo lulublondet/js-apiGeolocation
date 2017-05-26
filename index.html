@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Geolocalizacion</title>
+	<style type="text/css">	
+		div#map {
+			width: 100%;
+			height: 90vh;
+		}
+
+		button#findme {
+			width: 100%;
+			height: 10vh;
+			background-color: orange;			
+		}
+
+		
+			
+	</style>
+
+</head>
+<body>
+	<div id="map"></div>
+	<button id="findme">Encuéntrame</button>
+
+	
+	<script src="app.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeifEqbDY9VUlSSCaNGw2X8MPDqWUprws&callback=initMap"></script>	
+</body>
+</html>
